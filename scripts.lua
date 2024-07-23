@@ -1,7 +1,7 @@
 -- Zufallsindex und Bild setzen
 local bilder = {
-    "/dreck/img/kippenfisch.jpg",
-    "/dreck/img/toshinokyouko.png"
+    "/kippenfisch.jpg",
+    "/toshinokyouko.png"
 }
 local zufallsIndex = math.random(#bilder)
 local randomImageElement = document:getElementById("randomImage")
